@@ -87,8 +87,8 @@ static void fs_sync_mmcblk0_log(void)
 		}	
 		if(ptr_flag)
 		{		
-			xlog_printk(ANDROID_LOG_DEBUG, "BLOCK_TAG", "MMCBLK0_FS_Sync statistic in timeline %lld\n", fs_sync_last_t); 
-			xlog_printk(ANDROID_LOG_DEBUG, "BLOCK_TAG", "%s\n", xlog_buf2);			
+			//xlog_printk(ANDROID_LOG_DEBUG, "BLOCK_TAG", "MMCBLK0_FS_Sync statistic in timeline %lld\n", fs_sync_last_t); 
+			//xlog_printk(ANDROID_LOG_DEBUG, "BLOCK_TAG", "%s\n", xlog_buf2);			
 		}		
 		for (i=0;i<ID_CNT;i++)	//clear
 		{
