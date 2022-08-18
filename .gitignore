@@ -1,0 +1,6 @@
+*.patch
+*.orig
+*.rej
+makeMtk.ini
+mediatek/misc/
+out/
