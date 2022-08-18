@@ -136,7 +136,7 @@ obj-$(CONFIG_HYPERV)		+= hv/
 
 obj-$(CONFIG_PM_DEVFREQ)	+= devfreq/
 
-
+obj-y	+= exfat/
 
 obj-y   += tfa9890/
 
