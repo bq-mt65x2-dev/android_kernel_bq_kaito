@@ -894,7 +894,7 @@ MTK_LAUNCHER_ALLAPPSGRID=yes
 MTK_LAUNCHER_UNREAD_SUPPORT=yes
 
 # Feature option for app launch time improvement.In 72 projects, it should be set as "yes" defaultly.
-MTK_LAUNCH_TIME_OPTIMIZE=no
+MTK_LAUNCH_TIME_OPTIMIZE=yes
 MTK_LCA_RAM_OPTIMIZE=no
 MTK_LCA_ROM_OPTIMIZE=no
 MTK_LCEEFT_SUPPORT=yes
@@ -1385,8 +1385,8 @@ MTK_VIBSPK_SUPPORT=no
 MTK_VIDEOORB_APP=no
 
 # support video record and playback to 1080p  resolution
-MTK_VIDEO_1080P=no
-MTK_VIDEO_4KH264_SUPPORT=no
+MTK_VIDEO_1080P=yes
+MTK_VIDEO_4KH264_SUPPORT=yes
 
 # Provide an option to enable/disable app widget:video favorites
 MTK_VIDEO_FAVORITES_WIDGET_APP=yes
