@@ -3,7 +3,7 @@ include $(MTK_PATH_BUILD)/common.mk
 obj-y   +=  keypad/ #for Kernel HAL Structure
 obj-y   +=  mtprof/
 obj-y   +=  clock/
-obj-y   +=  sched/
+#obj-y   +=  sched/
 obj-y   +=  mmp/
 obj-y   +=  xlog/
 obj-y   +=  uart/
