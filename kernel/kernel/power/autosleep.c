@@ -112,7 +112,7 @@ static DECLARE_WORK(suspend_work, try_to_suspend);
 
 void queue_up_suspend_work(void)
 {
-	if (!work_pending(&suspend_work) && autosleep_state > PM_SUSPEND_ON)
+	if (autosleep_state > PM_SUSPEND_ON)
 	{
 		pm_log("queue_work autosleep_state(%d)\n", autosleep_state);
 		queue_work(autosleep_wq, &suspend_work);
