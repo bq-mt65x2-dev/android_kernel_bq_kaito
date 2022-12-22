@@ -936,7 +936,9 @@ static inline void idle_balance(int cpu, struct rq *rq)
 
 #endif
 
+#ifdef CONFIG_SYSRQ_SCHED_DEBUG
 extern void sysrq_sched_debug_show(void);
+#endif
 extern void sched_init_granularity(void);
 #ifdef CONFIG_MTK_SCHED_CMP_PACK_SMALL_TASK
 extern void update_packing_domain(int cpu);
